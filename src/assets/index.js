@@ -38,8 +38,16 @@ import FIGMA from "./skill/FIGMA.png";
 import Spreadsheet from "./skill/Spreadsheet.png";
 import Survey from "./skill/Survey.png";
 
+import future from "./experience/future.png";
+import SPS from "./experience/SPS.png";
+import tonlesap from "./experience/tonlesap.png";
+import delico from "./experience/delico.png";
 
 export {
+  future,
+  SPS,
+  delico,
+  tonlesap,
   Survey,
   Spreadsheet,
   FIGMA,

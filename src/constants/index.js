@@ -30,6 +30,10 @@ import {
   Spreadsheet,
   Survey,
   Doc,
+  tonlesap,
+  delico,
+  future,
+  SPS,
 } from "../assets";
 
 export const navLinks = [
@@ -53,15 +57,15 @@ const services = [
     icon: web,
   },
   {
-    title: "UI/UX Instructor",
+    title: "Product strategic",
     icon: backend,
   },
   {
-    title: "Micro Interaction",
+    title: "Teaching and mentor",
     icon: mobile,
   },
   {
-    title: "Strategic Planning",
+    title: "Micro interaction",
     icon: creator,
   },
 ];
@@ -101,7 +105,7 @@ const experiences = [
   {
     title: "Senior UX UI designer",
     company_name: "AMK Microfinance (TONLESAP project)",
-    icon: starbucks,
+    icon: tonlesap,
     iconBg: "#383E56",
     date: "Oct 2022 – Present",
     points: [
@@ -117,7 +121,7 @@ const experiences = [
   {
     title: "Marketing & Designer Executive",
     company_name: "Delicio.App",
-    icon: tesla,
+    icon: delico,
     iconBg: "#383E56",
     date: "Nov 2019 – Jun 2022",
     points: [
@@ -131,7 +135,7 @@ const experiences = [
   {
     title: "Part-time UX/UI Instructor (at Futurebit)",
     company_name: "Startup institute",
-    icon: shopify,
+    icon: future,
     iconBg: "#383E56",
     date: "2020-Present",
     points: [
@@ -144,7 +148,7 @@ const experiences = [
   {
     title: "UX UI Design Freelancer",
     company_name: "Self-employed",
-    icon: shopify,
+    icon: SPS,
     iconBg: "#383E56",
     date: "2020-Present",
     points: [

@@ -46,12 +46,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript,
-        JavaScript, Dart, and expertise in frameworks like React native,
-        Flutter, React js, Next js and Node.js . I'm a quick learner and
-        collaborate closely with clients to create efficient, scalable, and
-        user-friendly solutions that solve real-world problems. Let's work
-        together to bring your ideas to life!
+        Welcome to my portfolio! I'm Sar Sopiseth, a senior UX UI Designer at a
+        startup project, and I juggle roles as an instructor and consultant at
+        Future.bit, the pioneering UX UI design school. Over the past 2-3 years,
+        I've evolved from a marketing designer executive to a UX UI designer,
+        mastering skills essential for grasping both business and design
+        perspectives. My project scope includes mobile app and responsive web
+        designs for diverse sectors like e-Agriculture, eCommerce, discovery,
+        and business landing pages. With a core focus on UX, I intricately
+        analyze user behavior to ensure every design decision caters to the
+        needs of non-technical users, especially farmers. Collaborating closely
+        with cross-functional teams, including CEOs, PMs, and leads, I ensure
+        each design aligns seamlessly with business goals and user satisfaction.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
