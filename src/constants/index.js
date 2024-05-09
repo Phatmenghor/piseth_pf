@@ -262,22 +262,22 @@ export const contactData = [
   {
     title: "Telegram",
     icon: mobile,
-    href: "https://t.me/PhatMenghor",
+    href: "https://t.me/sopisethsar",
   },
   {
-    title: "Git Hub",
+    title: "LinkedIn",
     icon: web,
-    href: "https://github.com/Phatmenghor",
+    href: "https://www.linkedin.com/in/sar-sopiseth-529435210/",
   },
   {
-    title: "LinkIn",
+    title: "Behance",
     icon: creator,
-    href: "https://www.linkedin.com/in/phat-menghor-124223276/",
+    href: "https://www.behance.net/sopiseth",
   },
   {
-    title: "Facebook",
+    title: "Figma",
     icon: backend,
-    href: "https://web.facebook.com/profile.php?id=100089332688406",
+    href: "https://www.figma.com/@spscreative",
   },
 ];
 
