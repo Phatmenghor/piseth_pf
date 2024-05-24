@@ -17,6 +17,13 @@ import {
   delico,
   future,
   SPS,
+  tonlesapWeb,
+  tonlesapMobile,
+  sellerMobile,
+  delicioWeb,
+  uiUx,
+  svengrokWeb,
+  siaWeb,
 } from "../assets";
 
 export const navLinks = [
@@ -170,67 +177,156 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TONLESAP consumer RWD",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "is designed to provide agricultural knowledge to farmers includes technical, market information, key tactics in growing crops, type of types of equipment, and better technique to raise animals. Furthermore, farmers can access financial support to expand their farming through Apps.",
     tags: [
       {
-        name: "react",
+        name: "Figma",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Figjam",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ucd & dt",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tonlesapWeb,
+    source_code_link: "http://consumer.tonlesapcambodia.com/",
   },
   {
-    name: "Job IT",
+    name: "TONLESAP consumer app",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The first mobile application provides agriculture app in Cambodia.",
     tags: [
       {
-        name: "react",
+        name: "Figma",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Figjam",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ucd & dt",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tonlesapMobile,
+    source_code_link: "https://onelink.to/65cwf5",
   },
   {
-    name: "Trip Guide",
+    name: "TONLESAP seller App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "is designed for our seller partners to manage their stores. They can receive and manage orders, products, promotions, and delivery prices, as well as communicate directly with customers or support through our chat feature.",
     tags: [
       {
-        name: "nextjs",
+        name: "Figma",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Figjam",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ucd & dt",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sellerMobile,
+    source_code_link: "#",
+  },
+  {
+    name: "Delicio.App",
+    description:
+      "A marketplace taking local stores on-line, awarded the top 7 startups in Cambodia.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Marketing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ucd & dt",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: delicioWeb,
+    source_code_link: "https://www.facebook.com/delicioapp",
+  },
+  {
+    name: "UX/UI Instructor",
+    description:
+      "A trainer, mentor, and supporter to my students. Final projects included several types such as a doctor appointment mobile app, event booking responsive web design, fashion & food eCommerce website, university discovery website, and a segment of a banking mobile app feature.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mobile App",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RWD",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ucd & Dt",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: uiUx,
+    source_code_link:
+      "https://www.facebook.com/futurebit34/posts/pfbid0uR794zxxev7kQPCcvjJc7njJXTHi9HGbbJA5kyazZagRCZRrbpxhgwQe41PoSx9Sl",
+  },
+  {
+    name: "SVENGROK Website",
+    description:
+      "a discovery website (Startup Ecosystem) where people have their own freedom to search and choose a compromising company.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Marketing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ucd & dt",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: svengrokWeb,
+    source_code_link: "#",
+  },
+  {
+    name: "SIA Plant Project",
+    description:
+      "An internal eCommerce website focusing on selling various popular plant categories in Taiwan.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Marketing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ucd & dt",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: siaWeb,
+    source_code_link: "#",
   },
 ];
 

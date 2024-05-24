@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -43,7 +44,23 @@ import SPS from "./experience/SPS.png";
 import tonlesap from "./experience/tonlesap.png";
 import delico from "./experience/delico.png";
 
+import delicioWeb from "./project/delicioWeb.png";
+import sellerMobile from "./project/sellerMobile.png";
+import siaWeb from "./project/siaWeb.png";
+import svengrokWeb from "./project/svengrokWeb.png";
+import tonlesapMobile from "./project/tonlesapMobile.png";
+import tonlesapWeb from "./project/tonlesapWeb.png";
+import uiUx from "./project/uiUx.png";
+
 export {
+  delicioWeb,
+  sellerMobile,
+  siaWeb,
+  uiUx,
+  svengrokWeb,
+  tonlesapWeb,
+  tonlesapMobile,
+  link,
   future,
   SPS,
   delico,
