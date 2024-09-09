@@ -194,7 +194,7 @@ const projects = [
       },
     ],
     image: tonlesapApp,
-    source_code_link: "http://consumer.tonlesapcambodia.com/",
+    source_code_link: "https://apps.apple.com/us/app/tonlesap-app/id1439403157",
   },
   {
     name: "2. TSA - Seller App",
@@ -216,7 +216,8 @@ const projects = [
       },
     ],
     image: sellerApp,
-    source_code_link: "https://onelink.to/65cwf5",
+    source_code_link:
+      "https://apps.apple.com/kh/app/tonlesap-seller/id1479022739",
   },
   {
     name: "3. TSA - Responsive Web Design",
@@ -235,7 +236,7 @@ const projects = [
       },
     ],
     image: tonlesapWeb,
-    source_code_link: "#",
+    source_code_link: "http://consumer.tonlesapcambodia.com/",
   },
   {
     name: "4. CBC -Website Dashboard",
@@ -255,7 +256,7 @@ const projects = [
       },
     ],
     image: cbcWeb,
-    source_code_link: "https://www.facebook.com/delicioapp",
+    source_code_link: "",
   },
   {
     name: "5. Delicio.App: Contributed to the seller app design",
@@ -276,8 +277,7 @@ const projects = [
       },
     ],
     image: delicioApp,
-    source_code_link:
-      "https://www.facebook.com/futurebit34/posts/pfbid0uR794zxxev7kQPCcvjJc7njJXTHi9HGbbJA5kyazZagRCZRrbpxhgwQe41PoSx9Sl",
+    source_code_link: "https://www.facebook.com/delicioapp",
   },
   {
     name: "6. Svengrok - Discovery Website",
@@ -294,7 +294,7 @@ const projects = [
       },
     ],
     image: svengRok,
-    source_code_link: "#",
+    source_code_link: "",
   },
   {
     name: "7. SIA - eCommerce Project",
@@ -315,7 +315,7 @@ const projects = [
       },
     ],
     image: plantWeb,
-    source_code_link: "#",
+    source_code_link: "",
   },
 ];
 
