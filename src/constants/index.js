@@ -3,9 +3,6 @@ import {
   backend,
   creator,
   web,
-  carrent,
-  jobit,
-  tripguide,
   FIGMA,
   FIGJAM,
   CreateaiAI,
@@ -18,12 +15,12 @@ import {
   future,
   SPS,
   tonlesapWeb,
-  tonlesapMobile,
-  sellerMobile,
-  delicioWeb,
-  uiUx,
-  svengrokWeb,
-  siaWeb,
+  sellerApp,
+  cbcWeb,
+  svengRok,
+  plantWeb,
+  delicioApp,
+  tonlesapApp,
 } from "../assets";
 
 export const navLinks = [
@@ -177,155 +174,147 @@ const testimonials = [
 
 const projects = [
   {
-    name: "TONLESAP consumer RWD",
-    description:
-      "is designed to provide agricultural knowledge to farmers includes technical, market information, key tactics in growing crops, type of types of equipment, and better technique to raise animals. Furthermore, farmers can access financial support to expand their farming through Apps.",
+    name: "1. TSA - Consumer: The first mobile application provides agriculture app in Cambodia",
+    description: [
+      "Conducted user research and surveys.",
+      "Designed user flows and sitemaps.",
+      "Designed UI and prototypes.",
+      "Enhanced UX.",
+      "Managed design and document hand-offs.",
+      "Collaborated directly with tech lead, business, and CEO.",
+    ],
     tags: [
       {
-        name: "Figma",
+        name: "production",
         color: "blue-text-gradient",
       },
       {
-        name: "Figjam",
+        name: "in-development",
         color: "green-text-gradient",
       },
-      {
-        name: "ucd & dt",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tonlesapWeb,
+    image: tonlesapApp,
     source_code_link: "http://consumer.tonlesapcambodia.com/",
   },
   {
-    name: "TONLESAP consumer app",
-    description:
-      "The first mobile application provides agriculture app in Cambodia.",
+    name: "2. TSA - Seller App",
+    description: [
+      "Designed user flows and sitemaps.",
+      "Designed UI and prototypes.",
+      "Enhanced UX.",
+      "Managed design and document hand-offs.",
+      "Worked closely with tech lead and business.",
+    ],
     tags: [
       {
-        name: "Figma",
+        name: "production",
         color: "blue-text-gradient",
       },
       {
-        name: "Figjam",
+        name: "in-development",
         color: "green-text-gradient",
       },
-      {
-        name: "ucd & dt",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tonlesapMobile,
+    image: sellerApp,
     source_code_link: "https://onelink.to/65cwf5",
   },
   {
-    name: "TONLESAP seller App",
-    description:
-      "is designed for our seller partners to manage their stores. They can receive and manage orders, products, promotions, and delivery prices, as well as communicate directly with customers or support through our chat feature.",
+    name: "3. TSA - Responsive Web Design",
+    description: [
+      "Designed UI and prototypes.",
+      "Managed design and document hand-offs.",
+    ],
     tags: [
       {
-        name: "Figma",
+        name: "production",
         color: "blue-text-gradient",
       },
       {
-        name: "Figjam",
+        name: "in-improvement",
         color: "green-text-gradient",
       },
-      {
-        name: "ucd & dt",
-        color: "pink-text-gradient",
-      },
     ],
-    image: sellerMobile,
+    image: tonlesapWeb,
     source_code_link: "#",
   },
   {
-    name: "Delicio.App",
-    description:
-      "A marketplace taking local stores on-line, awarded the top 7 startups in Cambodia.",
+    name: "4. CBC -Website Dashboard",
+    description: [
+      "Designed UI and prototypes.",
+      "Managed design and document hand-offss.",
+      "Collaborated directly with product owner & developer.",
+    ],
     tags: [
       {
-        name: "Figma",
+        name: "in-development",
         color: "blue-text-gradient",
       },
       {
-        name: "Marketing",
+        name: "freelance",
         color: "green-text-gradient",
       },
-      {
-        name: "ucd & dt",
-        color: "pink-text-gradient",
-      },
     ],
-    image: delicioWeb,
+    image: cbcWeb,
     source_code_link: "https://www.facebook.com/delicioapp",
   },
   {
-    name: "UX/UI Instructor",
-    description:
-      "A trainer, mentor, and supporter to my students. Final projects included several types such as a doctor appointment mobile app, event booking responsive web design, fashion & food eCommerce website, university discovery website, and a segment of a banking mobile app feature.",
+    name: "5. Delicio.App: Contributed to the seller app design",
+    description: [
+      "Conducted user research and surveys.",
+      "Design UI and prototypes.",
+      "Managed marketing efforts.",
+      "Collaborated directly with CEO.",
+    ],
     tags: [
       {
-        name: "Figma",
+        name: "in-development",
         color: "blue-text-gradient",
       },
       {
-        name: "Mobile App",
+        name: "freelance",
         color: "green-text-gradient",
       },
-      {
-        name: "RWD",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Ucd & Dt",
-        color: "blue-text-gradient",
-      },
     ],
-    image: uiUx,
+    image: delicioApp,
     source_code_link:
       "https://www.facebook.com/futurebit34/posts/pfbid0uR794zxxev7kQPCcvjJc7njJXTHi9HGbbJA5kyazZagRCZRrbpxhgwQe41PoSx9Sl",
   },
   {
-    name: "SVENGROK Website",
-    description:
-      "a discovery website (Startup Ecosystem) where people have their own freedom to search and choose a compromising company.",
+    name: "6. Svengrok - Discovery Website",
+    description: [
+      "Conducted user research and flow.",
+      "Designed UI and prototypes.",
+      "Managed design and document hand-offs.",
+      "Worked closely with stakeholders and developers.",
+    ],
     tags: [
       {
-        name: "Figma",
+        name: "in-development",
         color: "blue-text-gradient",
       },
-      {
-        name: "Marketing",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ucd & dt",
-        color: "pink-text-gradient",
-      },
     ],
-    image: svengrokWeb,
+    image: svengRok,
     source_code_link: "#",
   },
   {
-    name: "SIA Plant Project",
-    description:
-      "An internal eCommerce website focusing on selling various popular plant categories in Taiwan.",
+    name: "7. SIA - eCommerce Project",
+    description: [
+      "Conducted user research and flow.",
+      "Designed UI and prototypess.",
+      "Managed design and document hand-offs.",
+      "Worked closely with stakeholders and developers.",
+    ],
     tags: [
       {
-        name: "Figma",
+        name: "in-development",
         color: "blue-text-gradient",
       },
       {
-        name: "Marketing",
+        name: "freelance",
         color: "green-text-gradient",
       },
-      {
-        name: "ucd & dt",
-        color: "pink-text-gradient",
-      },
     ],
-    image: siaWeb,
+    image: plantWeb,
     source_code_link: "#",
   },
 ];
